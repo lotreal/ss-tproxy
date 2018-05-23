@@ -328,6 +328,9 @@ r*)     # restart
 c*)     # current_ip
     current_ip
     ;;
+d*)     # dns
+    ipts_origin
+    ;;
 f*)     # flush_dnsche
     pdnsd_flush
     ;;
